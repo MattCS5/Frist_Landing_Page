@@ -40,7 +40,11 @@ li {
     text-align: center;
     transform: translateX(40px);
 }
-
+.logotext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 13px;
+}
 .primeraSeccion{
     padding-top: 3em;
     display: flex;
@@ -200,7 +204,7 @@ a{
     flex-direction: column;
     text-align: justify;
     gap: 2em;
-    padding-left: 8em;
+    padding-left: 3em;
 }
 .tituloTerceraSeccion{
     color: #010101;
@@ -314,19 +318,19 @@ button{
 }
 
 .quintaSeccion{
-    background-color: #FEC200;
+    background-color:#00BCD4;
     border-radius: 10px;
    
 }
 .imagenBackground{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
 }
 .circuloUno{
     background-image: url(camiseta-campamento-lallamada.jpg);
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     /* border: 10px solid #00BCD4; */
     transform: translate(80px,120px);
@@ -336,10 +340,9 @@ button{
 .circuloDos{
     background-image: url(palomitas.jpg);
     background-size: contain;
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
-    /* border: 10px solid #00BCD4; */
     transform: translate(-40px,30px);
 }
 
@@ -389,4 +392,195 @@ button{
 .tetoxQuintaSeccion{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2em;
+}
+
+.camara{
+    width: 180px;
+    height: 340px;
+    transform: translate(0px, 90px);
+}
+
+.sextaSeccion{
+    border-top:#cdcccc dotted;
+    display: flex;
+    padding-top: 7em;
+    
+
+}
+.premiosEspeciales{
+    display: flex;
+    gap: 2em;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.tituloPremios{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+}
+.primerPremio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    
+    
+}
+
+.fotoPrimerPremio{
+    background-image: url(belenCuesta.webp);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: #00BCD4 10px solid;
+}
+
+.tituloPimerPremio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #00BCD4;
+    
+}
+
+.segundoPremio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    
+}
+
+.fotoSegundoPremio{
+    background-image: url(anaCastillo2.jpg);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: #00BCD4 10px solid;
+    background-size: cover;
+    background-position: center;
+}
+
+.tituloSegundoPremio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #00BCD4; 
+}
+
+.textoPremioBelen{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    
+}
+
+.textoAnna{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.septimaSeccion{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4em;
+    border-top:#cdcccc dotted;
+    padding-bottom: 6em;
+}
+
+.elMusical{
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+.fotoMusical{
+    background-image: url(musical.jpg);
+    width: 700px;
+    height: 500px;
+    background-size: cover;
+}
+
+.descripcionMusical{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 3em;
+    gap: 2em;
+}
+.tituloMusical{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    width: 70%;
+    
+}
+
+.textoMusical{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.textoAzul{
+    color:#00BCD4;
+}
+
+.octavaSeccion{
+   padding-bottom: 5em ;
+}
+.plataformaRegistro{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00BCD4;
+    border-radius: 10px;
+    
+}
+
+.informacionContacto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 4em;
+    padding-bottom: 5em;
+}
+
+.titulodeRegistro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: rgb(24, 55, 106);
+   
+}
+.informaciondeRegistro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    border-radius: 50px;
+    background-color:rgb(24, 55, 106);
+    transform: translate(-250px, 50px);
+    width: 25em;
+}
+
+input {
+        height: 30px; 
+        border-radius: 10px;
+  }
+
+::placeholder{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+color:rgb(24, 55, 106);
+font-weight: lighter;
+padding: 6px;
+}
+
+.circuloSeis{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translate(-100px,50px);
+    border: #ffffff solid 5px;
 }
