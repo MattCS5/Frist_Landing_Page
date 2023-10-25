@@ -584,3 +584,21 @@ padding: 6px;
     transform: translate(-100px,50px);
     border: #ffffff solid 5px;
 }
+
+.navBottom{
+    padding: 5em;
+    display: flex;   
+    justify-content: space-between;
+}
+.logosnav{
+    display: flex;
+    gap: 20px;
+}
+
+.textNav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
